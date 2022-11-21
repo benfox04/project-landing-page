@@ -1,21 +1,27 @@
 
 
 #logo {
-    border: 5px solid white; 
+    border: 10px solid white; 
     border-radius: 50%;
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    display: flex;
+    width: 300px;
+    height: 300px;
     margin: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
+#the-team {
+    font-family: 'Roboto';
+    text-align: center;
+    color: rgb(249,83,83);
+    padding-top: 50px;
+}
 .links {
     display: flex;
-    justify-items: right;
-    padding: 20px;
+    justify-content: flex-end;
     gap: 12px;
-    padding-top: 20px;
-    margin-top: 25px;
     font-family: 'Roboto';
 }
 
@@ -28,29 +34,84 @@
 .header-content {
     display: flex; 
     justify-content: center;
+    
 }
 
 #screenshot {
-    max-width: 600px;
-    display: flex;
+    max-width: 800px;
     margin: 100px;
-    border: 5px solid white; 
+    border: 10px solid white; 
+    border-radius: 25px;
     
 }
 
 .header-left {
     display: flex;
     flex-direction: column;
+    padding-top: 100;
     padding: 100px;
     max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
 }
 
 .header-right {
     display: flex; 
+    padding-top: 100;
 }
 
 .header {
     background-color:rgb(249,83,83);
     color: white;
     font-family: 'Roboto';
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.team-members {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border: 10px solid rgb(249,83,83);
+    border-radius: 25px;
+}
+
+.caption {
+    text-align: center;
+    font-family: 'Roboto';
+    color: rgb(249,83,83);
+    font-size: 30px;
+
+}
+
+.quote-container {
+    background-color: rgb(249,83,83);
+}
+
+.quote {
+    text-align: center;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 40px;
+    justify-content: center; 
+    align-items: center; 
+    padding: 200px;
+}
+
+#footer-link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: rgb(249,83,83);
+    font-size: 20px;
+    text-align: center;
+    
 }
