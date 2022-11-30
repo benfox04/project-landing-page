@@ -11,6 +11,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
 
+  <script> 
+  function addSeven(number) {
+    return number + 7
+  }
+
+  function multiply(number1, number2) {
+    return number1 * number2
+  }
+
+  function capitalise(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  }
+
+  function lastLetter(word) {
+    return word.charAt(word.length -1)
+  }
+
+  function sayHello() {
+    let name = prompt("Hi, I'm Ben! What's your name?")
+    alert(`Hi ${name}, pleased to meet you!`)
+  }
+
+  </script>
+
   <body>
     <div class="header">
         <div class="top-bar">
@@ -40,7 +64,7 @@
       </div>
       <div class="team-container">
         <figure >
-          <img src="ben.jpg" class="team-members"/>
+          <img src="ben.jpg" class="team-members" onclick="sayHello()"/>
           <figcaption class="caption">Ben</figcaption>
         </figure>
         <figure>
