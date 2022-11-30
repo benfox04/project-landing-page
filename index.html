@@ -33,6 +33,35 @@
     alert(`Hi ${name}, pleased to meet you!`)
   }
 
+  function alanQuote() {
+    let number = Math.floor(Math.random() * 10);
+    console.log(number);
+    if (number === 1) {
+      alert("Smell my cheese, you mother!")
+    }
+    else if (number === 2) {
+      alert("No offense, Lynn, but your life is technically not worth insuring.")
+    }
+    else if (number === 3) {
+      alert("Jurassic Park!")
+    }
+    else if (number === 4) {
+      alert("Bash your arse!")
+    }
+    else if (number === 5) {
+      alert("This is great banter!")
+    }
+    else if (number === 6) {
+      alert("Whoooo, whooo do you think you are?")
+    }
+    else if (number === 7) {
+      alert("Monkey Tennis?")
+    }
+    else {
+      alert("Back of the net!")
+    }
+  }
+
   </script>
 
   <body>
@@ -72,7 +101,7 @@
           <figcaption class="caption">Harry</figcaption>
         </figure>
         <figure>
-          <img src="alan.jpg" class="team-members"/>
+          <img src="alan.jpg" class="team-members" onclick="alanQuote()"/>
           <figcaption class="caption">Alan</figcaption>
         </figure>
       </div>
